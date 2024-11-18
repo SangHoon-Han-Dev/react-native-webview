@@ -253,7 +253,7 @@ public class RNCWebViewManager extends SimpleViewManager<WebView> {
     if (enabled) {
       Context ctx = view.getContext();
       if (ctx != null) {
-        view.getSettings().setAppCachePath(ctx.getCacheDir().getAbsolutePath()); // HSH Cache 관련 주석처리
+        // view.getSettings().setAppCachePath(ctx.getCacheDir().getAbsolutePath()); // HSH Cache 관련 주석처리
         view.getSettings().setCacheMode(WebSettings.LOAD_DEFAULT);
         // view.getSettings().setAppCacheEnabled(true); // HSH Cache 관련 주석처리
       }
